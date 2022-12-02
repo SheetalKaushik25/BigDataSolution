@@ -1,0 +1,243 @@
+Q1. Why do we call Python as a general purpose and high-level programming language?
+
+A1. Python is a general-purpose language, meaning it can be used to create a variety of different programs and isn't specialized for any specific problems. 
+    This versatility, along with its beginner-friendliness, has made it one of the most-used programming languages today. It is called high-level programming 
+    because it is easy for humans to understand and the coding is also quite easy.
+
+Q2. Why is Python called a dynamically typed language?
+
+A2. Other languages like C, C++, Java, etc.., there is a strict declaration of variables before assigning values to them. Python don't have any problem even if
+    we don't declare the type of variable.It states the kind of variable in the runtime of the program. So, Python is a dynamically typed language.
+
+Q3. List some pros and cons of Python programming language?
+
+A3. The pros of Python
+    
+    . Python is easy to learn and read.
+    . Python enhances productivity.
+    . Python has a vast collection of libraries.
+    . Python is free, open-source, and has a vibrant community.
+    . Python is a portable programming language.
+    . Python is an interpreted language. 
+   
+   The cons of python programming language.
+    . Poor Memory Efficiency.
+    . Slow Speed.
+    . Database Access.
+    . Weak in Mobile Computing.
+    . Runtime Errors.
+
+Q4. In what all domains can we use Python?
+A4. Since Python is the go-to programming language for domains such as artificial intelligence, machine learning and deep learning,
+    it's no surprise that it's also a fundamental tool for any data scientist.
+
+Q5. What are variable and how can we declare them?
+
+A5. A Python variable is a symbolic name that is a reference or pointer to an object.
+    Python has no command for declaring a variable. A variable is created the moment you first assign a value to it.
+
+
+
+Q6. How can we take an input from the user in Python?
+
+A6. In Python, we can get user input like this: name = input("Enter your name: ") print("Hello", name + "!") 
+    The code above simply prompts the user for information, and the prints out what they entered in.
+    Example: Take User Input. >>> user_input = input() How are you? >>> ...
+    Example: Input with Prompt. >>> name = input('Enter Your Name: ') 
+
+Q7. What is the default datatype of the value that has been taken as an input using input() function?
+
+A7. Stringis the default datatype of the value that has been taken as an input using input() function 
+    String, everything that you input() will be a string.
+
+Q8. What is type casting?
+A8. Type Casting is the method to convert the variable data type into a certain data type in order to the operation required to be performed by users.
+    There are two varieties of typecasting in python namely -
+    
+    Explicit Conversion(Explicit type casting in python)
+    Implicit Conversion(Implicit type casting in python).
+
+Q9. Can we take more than one input from the user using single input() function? If yes, how? If no, why?
+
+A9. Yes, we take more than one input from the user using single input() functionAt times, we might want to take multiple inputs from the user and in this case,
+    we can use the raw_input ( ) or input( ) function multiple times.
+    But then, there is an easy way of doing this using these inbuilt functions.
+  
+    a) Using split() function
+
+    b) Using input () function
+
+    c) Using map () function
+
+    d) Using List Comprehension
+
+
+
+
+Q10. What are keywords?
+
+A10. Python keywords are special reserved words that have specific meanings and purposes and can't be used for anything but those specific purposes.
+     They are for defining the syntax and structures of Python language. You should know there are 33 keywords in 
+     Python programming language as of writing this tutorial. Although the number can vary in course of time. 
+     Also keywords in Python is case sensitive.
+
+
+Q11. Can we use keywords as a variable? Support your answer with reason.
+
+A11. Keywords are used to define the syntax of the coding. 
+     The keyword cannot be used as an identifier, function, and variable name. 
+     All the keywords in python are written in lower case except True and False.
+
+Q12. What is indentation? What's the use of indentaion in Python?
+
+A12. Python indentation refers to adding white space before a statement to a particular block of code. 
+     In another word, all the statements with the same space to the right, belong to the same code block.
+     Python uses indentation to highlight the blocks of code. Whitespace is used for indentation in Python.
+
+Q13. How can we throw some output in Python?
+
+A13. Python print() function prints the message to the screen or any other standard output device.
+     Syntax: 
+     print(value(s), sep= ' ', end = '\n', file=file, flush=flush)
+
+Q14. What are operators in Python?
+
+A14. Python Operators in general are used to perform operations on values and variables. These are standard symbols used for the purpose of logical and arithmetic operations. 
+     
+      OPERATORS: Are the special symbols. Eg- + , * , /, etc.
+      OPERAND: It is the value on which the operator is applied.
+
+Q15. What is difference between / and // operators?
+
+A15. In Python programming, you can perform division in two ways. The first one is Float Division("/") and the second is Integer Division("//") or Floor Division.
+     
+     Float Division("/"): Divides left hand operand by right hand operand.
+     5/2 = 2.5
+     Division works in Python the way it's mathematically defined.
+     x/y= float(x/y)
+
+     Floor Division("//"): The division of operands where the result is the quotient in which the digits after the decimal point are removed. 
+     But if one of the operands is negative, the result is floored , i.e., rounded away from zero (towards negative infinity). 
+     5//2=2
+    -11//3 = -4
+     Floor division works in Python the way it's mathematically defined.
+     x // y == math.floor(x/y)
+
+
+
+Q16. Write a code that gives following as an output.
+```
+iNeuroniNeuroniNeuroniNeuron
+```
+
+A16. The repetition operator is denoted by a '*' symbol and is useful for repeating strings to a certain length.
+      
+       str = 'iNeuron'
+       print(str*3)
+     The above lines of code will display the following outputs:
+     iNeuroniNeuroniNeuroniNeuron
+
+Q17. Write a code to take a number as an input from the user and check if the number is odd or even.
+
+A17. # Python program to check if the input number is odd or even.
+ 
+      num = int(input("Enter a number: "))
+      if (num % 2) == 0:
+      print("{0} is Even".format(num))
+      else:
+      print("{0} is Odd".format(num))
+      
+      Output 1
+      Enter a number: 43
+      43 is Odd
+      Output 2
+      Enter a number: 18
+      18 is Even
+
+Q18. What are boolean operator?
+
+A18. Boolean Operators are those that result in the Boolean values of True and False. 
+     These include and, or and not. While and & or require 2 operands, not is a unary operator. 
+     Boolean operators are most commonly used in arithmetic computations and logical comparisons.
+     There are two types of operators in Python that return boolean values,  i.e., Logical operators and Comparison operators. 
+     Since both these operators have return types as boolean, they are also termed, Boolean operators.
+
+Q19. What will the output of the following?
+```
+1 or 0
+
+0 and 0
+
+True and False and True
+
+1 or 0 or 0
+```
+
+Q20. What are conditional statements in Python?
+
+A20. The following are the conditional statements provided by Python.
+     if.
+     if..else.
+     Nested if.
+     if-elif statements.
+
+Q21. What is use of 'if', 'elif' and 'else' keywords?
+
+A21. if Condition
+     Python uses the if keyword to implement decision control. Python's syntax for executing a block conditionally is as below:
+
+     Syntax:
+    if [boolean expression]:
+    statement1
+    statement2
+    ...
+    statementN
+
+    else Condition
+Along with the if statement, the else condition can be optionally used to define an alternate block of statements to be executed if the boolean expression in the if condition evaluates to False.
+
+Syntax:
+if [boolean expression]:
+    statement1
+    statement2
+    ...
+    statementN
+else:
+    statement1
+    statement2
+    ...
+    statementN
+
+elif Condition
+Use the elif condition is used to include multiple conditional expressions after the if condition or between the if and else conditions.
+
+Syntax:
+if [boolean expression]:
+    [statements]
+elif [boolean expresion]:
+    [statements]
+elif [boolean expresion]:
+    [statements]
+else:
+    [statements]
+
+Q22. Write a code to take the age of person as an input and if age >= 18 display "I can vote". If age is < 18 display "I can't vote".
+
+Q23. Write a code that displays the sum of all the even numbers from the given list.
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
+
+
+Q24. Write a code to take 3 numbers as an input from the user and display the greatest no as output.
+
+Q25. Write a program to display only those numbers from a list that satisfy the following conditions
+
+- The number must be divisible by five
+
+- If the number is greater than 150, then skip it and move to the next number
+
+- If the number is greater than 500, then stop the loop
+```
+numbers = [12, 75, 150, 180, 145, 525, 50]
+```
